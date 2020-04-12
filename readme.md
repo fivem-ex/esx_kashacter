@@ -82,7 +82,7 @@ end)
 ```
 
 # Read carefully...
-> You **MUST** incerase the character limit in the `users` table for row `identifier` to **48**.
+> You **MUST** increase the character limit in the `users` table for row `identifier` to **48**.
 
 > Do **not** use essentialsmode, mapmanager and spawnmanager!
 
