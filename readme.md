@@ -91,3 +91,6 @@ end)
 ## How it works
 > What this script does it manipulates ESX for loading characters
 So when you are choosing your character it changes your **Rockstar license** which is normally **license:** to **Char:** this prevents ESX from loading another character because it is looking for you exact license. So when you choose your character it will change it from Char: to your normal Rockstar license (license:). When creating a new character it will spawn you without an exact license which creates a new database entry for your license.
+
+## Multiple languages support
+Just change locales/en.js in html/ui.html (line 10)
