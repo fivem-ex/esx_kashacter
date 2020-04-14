@@ -5,6 +5,15 @@
 
 * es_extended: (`es_extended/client/main.lua`)
 
+### Usuń ten kod (74 - 76):
+```lua
+Citizen.Wait(3000)
+ShutdownLoadingScreen()
+DoScreenFadeIn(10000)
+```
+
+* es_extended: (`es_extended/client/main.lua`)
+
 ### Zamień podany kod:
 
 ```lua
@@ -25,9 +34,7 @@ end)
 ```lua
 RegisterNetEvent('esx:kashloaded')
 AddEventHandler('esx:kashloaded', function()
-	if isFirstSpawn then
-		TriggerServerEvent('esx:onPlayerJoined')
-	end
+	TriggerServerEvent('esx:onPlayerJoined')
 end)
 ```
 
