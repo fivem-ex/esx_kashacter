@@ -33,10 +33,8 @@ local cam, cam2 = nil, nil
 
 RegisterNetEvent('kashactersC:SetupCharacters')
 AddEventHandler('kashactersC:SetupCharacters', function()
-    DoScreenFadeOut(10)
-    while not IsScreenFadedOut() do
-        Citizen.Wait(10)
-    end
+    ShutdownLoadingScreen()
+    Citizen.Wait(100)
     SetTimecycleModifier('hud_def_blur')
     FreezeEntityPosition(GetPlayerPed(-1), true)
     cam = CreateCamWithParams("DEFAULT_SCRIPTED_CAMERA", -1355.93,-1487.78,520.75, 300.00,0.00,0.00, 100.00, false, 0)
