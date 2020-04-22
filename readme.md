@@ -1,4 +1,5 @@
 > ⚠️ This script is currently broken. Thanks for the next esx updates that kill backwards compatibility.
+
 > ♻️ If someone has time to debug, they can create a pull request with fix.
 ___
 # Thanks to KASH and XxFri3ndlyxX
