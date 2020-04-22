@@ -1,3 +1,6 @@
+> ⚠️ This script is currently broken. Thanks for the next esx updates that kill backwards compatibility.
+> ♻️ If someone has time to debug, they can create a pull request with fix.
+___
 # Thanks to KASH and XxFri3ndlyxX
 > If you are updating ESX, be sure to update **all scripts** and **DATABASE SCHEMA**!
 
@@ -65,12 +68,16 @@ end)
 	end
 ```
 
+___
+
 # Read carefully...
 > You **MUST** increase the character limit in the `users` table for row `identifier` to **48**.
 
 > Do **not** use essentialsmode, mapmanager and spawnmanager!
 
 > *Pay ATTENTION: You have to call the resource **esx_kashacter** in order for the javascript to work!**
+
+___
 
 ## How it works
 > What this script does it manipulates ESX for loading characters
