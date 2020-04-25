@@ -1,6 +1,8 @@
 > ⚠️ This script is currently broken. Thanks for the next esx updates that kill backwards compatibility.
 
 > ♻️ If someone has time to debug, they can create a pull request with fix.
+
+> 💻 You can download es_extended here: https://gitlab.com/TigoDevelopment/es_extended
 ___
 # Thanks to KASH and XxFri3ndlyxX
 > If you are updating ESX, be sure to update **all scripts** and **DATABASE SCHEMA**!
