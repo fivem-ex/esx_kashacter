@@ -49,7 +49,7 @@ end)
 * es_extended: (`es_extended/server/main.lua`)
 
 ### Change this code in `onPlayerJoined(playerId)` function:
-
+### also remember that there are 2 places where the code below is written:
 ```lua
 	for k,v in ipairs(GetPlayerIdentifiers(playerId)) do
 		if string.match(v, 'license:') then
@@ -59,9 +59,7 @@ end)
 	end
 ```
 
-### to:
-
-
+### remember to replace both of them with:
 ```lua
 	for k,v in ipairs(GetPlayerIdentifiers(playerId)) do
 		if string.match(v, 'license:') then
@@ -70,7 +68,6 @@ end)
 		end
 	end
 ```
-
 ___
 
 # Read carefully...
