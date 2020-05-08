@@ -1,7 +1,3 @@
-> ⚠️ This script is currently broken. Thanks for the next esx updates that kill backwards compatibility.
-
-> ♻️ If someone has time to debug, they can create a pull request with fix.
-
 > 💻 You can download es_extended here: https://gitlab.com/TigoDevelopment/es_extended
 ___
 # Thanks to KASH and XxFri3ndlyxX
@@ -25,6 +21,8 @@ DoScreenFadeIn(10000)
 ### Replace this code:
 
 ```lua
+local isPaused, isDead, pickups = false, false, {}
+
 Citizen.CreateThread(function()
 	while true do
 		Citizen.Wait(0)
@@ -40,9 +38,13 @@ end)
 ### with:
 
 ```lua
+local isPaused, isDead, isFirstSpawn, pickups = false, false, true, {}
+
 RegisterNetEvent('esx:kashloaded')
 AddEventHandler('esx:kashloaded', function()
-	TriggerServerEvent('esx:onPlayerJoined')
+	if isFirstSpawn then
+		TriggerServerEvent('esx:onPlayerJoined')
+	end
 end)
 ```
 
