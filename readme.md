@@ -1,16 +1,12 @@
 > 💻 You can download es_extended here: https://github.com/ESX-Org/es_extended
 
+> If you are updating ESX, be sure to update **all scripts** and **DATABASE SCHEMA**!
+
 ## How it works
 > What this script does it manipulates ESX for loading characters
 So when you are choosing your character it changes your **Rockstar license** which is normally **license:** to **Char:** this prevents ESX from loading another character because it is looking for you exact license. So when you choose your character it will change it from Char: to your normal Rockstar license (license:). When creating a new character it will spawn you without an exact license which creates a new database entry for your license.
 
 ___
-
-### Thanks to KASH and XxFri3ndlyxX
-
-> If you are updating ESX, be sure to update **all scripts** and **DATABASE SCHEMA**!
-
-Instrukcja w języku Polskim znajduje się [tutaj](https://github.com/fivem-ex/esx_kashacter/blob/master/readme-pl.md).
 
 ## Required changes:
 
@@ -57,7 +53,7 @@ end)
 
 * es_extended: (`es_extended/server/main.lua`)
 
-### Change this code in `onPlayerJoined(playerId)` function:
+### Change this code in `onPlayerJoined(playerId)` function in 2 PLACES:
 
 ```lua
 	for k,v in ipairs(GetPlayerIdentifiers(playerId)) do
@@ -68,7 +64,7 @@ end)
 	end
 ```
 
-### to:
+### replace both of them with:
 
 
 ```lua
@@ -95,5 +91,7 @@ Just change locales/en.js in html/ui.html (line 10)
 ___
 
 ## Contributors
+
+#### Thanks to KASH and XxFri3ndlyxX! 
 
 ![Contributors](https://contributors-img.web.app/image?repo=fivem-ex/esx_kashacter)
