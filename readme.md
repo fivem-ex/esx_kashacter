@@ -1,4 +1,4 @@
-> 💻 You can download es_extended here: https://gitlab.com/TigoDevelopment/es_extended
+> 💻 You can download es_extended here: https://github.com/ESX-Org/es_extended
 ___
 # Thanks to KASH and XxFri3ndlyxX
 > If you are updating ESX, be sure to update **all scripts** and **DATABASE SCHEMA**!
