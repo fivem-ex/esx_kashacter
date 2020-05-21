@@ -1,3 +1,7 @@
+> ⚠️ The supported fork is here. ➡️ https://github.com/FiveEYZ/esx_kashacter
+
+___
+
 > 💻 You can download es_extended here: https://github.com/ESX-Org/es_extended
 
 > If you are updating ESX, be sure to update **all scripts** and **DATABASE SCHEMA**!
