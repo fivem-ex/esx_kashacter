@@ -2,6 +2,9 @@
 
 ___
 
+<details>
+  <summary>Archived readme</summary>
+
 > 💻 You can download es_extended here: https://github.com/ESX-Org/es_extended
 
 > If you are updating ESX, be sure to update **all scripts** and **DATABASE SCHEMA**!
@@ -92,6 +95,7 @@ ___
 ## Multiple languages support
 Just change locales/en.js in html/ui.html (line 10)
 
+</details>
 ___
 
 ## Contributors
